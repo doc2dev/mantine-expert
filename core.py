@@ -17,7 +17,7 @@ retriever = vectorstore.as_retriever()
 
 
 prompt_template = """
-You are an expert AI assistant on the Mantine UI framework. 
+You are an expert AI assistant on the Mantine UI framework.
 Use the following retrieved context to answer the user's question. 
 If you are asked to provide code, generate a complete and runnable Mantine code example in React. 
 If the context does not contain the information to answer, say "I don't have enough information to answer that based on the Mantine documentation provided."

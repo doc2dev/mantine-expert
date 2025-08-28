@@ -75,3 +75,4 @@ faiss/
 *.swp
 *~
 *.bak
+test_data.txt

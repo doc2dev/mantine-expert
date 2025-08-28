@@ -12,7 +12,7 @@ from mantine_urls import mantine_urls
 urls = mantine_urls
 
 # Load and split documents
-loader = WebBaseLoader(urls)
+loader = WebBaseLoader(["https://mantine.dev/llms.txt"])
 print("DOCUMENT LOAD STARTING")
 docs = loader.load()
 print("DOCUMENT LOAD FINISHED")
